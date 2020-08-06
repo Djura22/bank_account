@@ -4,4 +4,9 @@ class BankAccount
     0
   end
 
+  def deposit
+
+  end
+
 end
+
