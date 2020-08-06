@@ -11,6 +11,11 @@ describe BankAccount do
 		end
 	end
 
+  describe 'deposit' do
+  	it 'BankAccount responds to deposit method' do
+  		expect(subject).to respond_to('deposit')
+  	end
+  end
 end
 
 
